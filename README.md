@@ -1,10 +1,11 @@
 # HandsNFT AI website backup
 
-Static archive of [handsnft.fun](https://handsnft.fun/) captured on November 9, 2026.
+[Open the GitHub Pages backup](https://abhishekroushan1441.github.io/hands-nft-backup/)
 
-- `index.html` preserves the public Season 10 game page, including the mint panels, dashboard and pools as they appeared during capture.
-- `docs.html` includes the ten public documentation and policy pages, with working navigation and search.
+- `index.html` preserves the public Season 10 game page as captured on November 9, 2026, with the original responsive layout, fonts, images, and wallet picker design.
+- `docs.html` preserves the original documentation layout and ten public documentation and policy pages, with local navigation and search.
+- `wallet.js` connects supported injected EVM browser wallets using EIP-6963 discovery and EIP-1193 requests. Connection shares a public account address with the page and reads the chain ID. It makes no signing or transaction requests.
 
-Keep both files in the same folder and open `index.html` in a browser. Images, styles and fonts are embedded. The archive works offline and requires no installation or build.
+Keep all three files in one folder to open the snapshot locally. Use the HTTPS GitHub Pages URL for wallet connections.
 
-The dashboard is a snapshot. Wallet connections, minting, claims, level-ups and season changes require the live game. The archive contains the public frontend and documentation. A server restore requires the original application source, deployment configuration and any server-side data.
+The dashboard and pool values are captured data. WalletConnect QR pairing, other seasons, minting, claims, and level-ups use the [original game](https://handsnft.fun/). A full independent deployment requires the original app source, its API services, and wallet configuration for the new origin.
